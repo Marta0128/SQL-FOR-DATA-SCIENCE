@@ -44,7 +44,7 @@ SELECT Name AS Artist
 FROM Artists LEFT JOIN Albums ON Artists.ArtistId = Albums.ArtistId
 WHERE Album IS NULL;
 
-------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------
 Q6) Use a UNION to create a list of all the employee's & customer's first names and last names ordered by the last name in descending order.
 
 SELECT FirstName
@@ -55,7 +55,7 @@ SELECT FirstName
 FROM Customers
 ORDER BY LastName DESC;
 
-------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
 Q7) See if there are any customers who have a different city listed in their billing city versus their customer city.
 
 SELECT C.FirstName
