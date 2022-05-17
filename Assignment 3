@@ -53,7 +53,7 @@ FROM Employees UNION
 SELECT FirstName
        ,LastName
 FROM Customers
-ORDER BY LastName DESC
+ORDER BY LastName DESC;
 
 ------------------------------------------------------------------------------------
 -- Q7) See if there are any customers who have a different city listed in their billing city versus their customer city.
